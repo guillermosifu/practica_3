@@ -43,16 +43,16 @@ a {
 .banner img {
   width: 100%;
 }
-.banner .hijo {
+.banner .elements {
   position: absolute;
   color: rgb(255, 255, 255);
 }
-.banner .hijo:nth-child(1) {
+.banner .elements:nth-child(1) {
   top: 60px;
   left: 40%;
   z-index: 1;
 }
-.banner .hijo:nth-child(3) {
+.banner .elements:nth-child(3) {
   top: 300px;
   left: 7%;
   padding: 20px;
@@ -62,17 +62,17 @@ a {
   background-color: rgba(114, 153, 254, 0.5);
 }
 /********** sobre mi*/
-.sobremi {
+.about {
   margin-top: 54%;
   background-color: #7299fe;
   padding: 40px;
   color: #fff;
 }
-.sobremi h2 {
+.about h2 {
   color: #1d06a7;
 }
-.sobremi button,
-.sobremi a {
+.about button,
+.about a {
   margin-right: 15px;
   padding: 15px 50px;
   background-color: #d16fff;
@@ -83,8 +83,8 @@ a {
   font-weight: bold;
   font-size: 16px;
 }
-.sobremi button:hover,
-.sobremi a:hover {
+.about button:hover,
+.about a:hover {
   /* border: 1px solid rgba(0, 0, 0, 0.25); */
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25);
   background-color: #1d06a7;
@@ -128,16 +128,16 @@ a {
   background-color: #57eff9;
 }
 /********** Kills*/
-.portafolio {
+.portfolio {
   background-color: #ffd233;
   padding: 40px;
   color: #00ad84;
 }
-.portafolio section {
+.portfolio section {
   text-align: center;
   margin: 20px 0;
 }
-.portafolio figure {
+.portfolio figure {
   width: 20%;
   margin: 15px 10px;
   /* border: 1px solid #000; */
@@ -171,11 +171,13 @@ a {
   width: 100%;
   margin: 20px 0;
   text-align: center;
+  
 }
 .contacto input,
 .contacto textarea {
   margin-bottom: 20px;
   display: inline-block;
+  
 }
 .contacto input {
   width: 43%;
@@ -199,6 +201,7 @@ a {
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
+  
 }
 .contacto button {
   width: 20%;
@@ -215,3 +218,9 @@ a {
   border: 1px solid #233451;
 }
 /*FOOTER*/
+ 
+.footer{
+  font-size: medium;
+  display: flex;
+  justify-content: space-around;
+}
