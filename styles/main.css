@@ -25,9 +25,6 @@ a {
   color: inherit;
   text-decoration: none;
 }
-/*  STICKY FOOTER    */
-
-/* HEADER    */
 
 /*CONTENEDOR MAIN*/
 .main {
@@ -61,7 +58,7 @@ a {
   border-radius: 10px;
   background-color: rgba(114, 153, 254, 0.5);
 }
-/********** sobre mi*/
+/*sobre mi*/
 .about {
   margin-top: 54%;
   background-color: #7299fe;
@@ -85,7 +82,7 @@ a {
 }
 .about button:hover,
 .about a:hover {
-  /* border: 1px solid rgba(0, 0, 0, 0.25); */
+ 
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.25);
   background-color: #1d06a7;
 }
@@ -105,7 +102,7 @@ a {
 .kills-content article {
   width: 45%;
   height: 80px;
-  /* border: 1px solid #000; */
+ 
   display: inline-block;
   text-align: left;
 }
@@ -127,7 +124,7 @@ a {
   width: 40%;
   background-color: #57eff9;
 }
-/********** Kills*/
+/* sKills*/
 .portfolio {
   background-color: #ffd233;
   padding: 40px;
@@ -140,11 +137,10 @@ a {
 .portfolio figure {
   width: 20%;
   margin: 15px 10px;
-  /* border: 1px solid #000; */
   display: inline-block;
   text-align: center;
 }
-/********** Clientes*/
+/* Clientes*/
 .clientes {
   padding: 40px;
   background-color: #3f4e62;
@@ -161,7 +157,7 @@ a {
 .clientes figure {
   margin: 0 10px;
 }
-/********** Clientes*/
+/*Clientes*/
 .contacto {
   padding: 40px;
   background-color: #1687a0;
